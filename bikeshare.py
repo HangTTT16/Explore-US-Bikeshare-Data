@@ -55,7 +55,7 @@ def load_data(city, month, day):
     """
 
 
-# load data file into a dataframe
+    # load data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
 
     # convert the Start Time column to datetime
@@ -219,8 +219,8 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = input('\nWould you like to restart? Enter yes (y) or no (n).\n')
+        if restart.lower() != 'yes' or restart.lower() !='y':
             break
 
 
