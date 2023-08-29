@@ -173,13 +173,13 @@ def user_stats(df):
         print('\nEarliest Year:', earliest_year)
     except KeyError:
         print("Earliest Year is no data valid this month")
-        
+    #TO DO: Display most recent year of birth    
     try:
         most_recent_year = df['Birth Year'].max()
         print('\nMost recent Year:', most_recent_year)
     except KeyError:
         print("Most recent Year is no data valid this month")
-        
+    #TO DO: Display most common year of birth    
     try:
         most_common_year = df['Birth Year'].value_counts().idxmax()
         print('\nMost common Year:', most_common_year)
