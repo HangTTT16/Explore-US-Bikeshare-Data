@@ -15,8 +15,12 @@ Include the files used
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+
 ### Comment Udacity
 2 Improve Documentation
 
 ### Comment Udacity
 3 Additional Changes to Documentation
+
+4 Refactor Code
+>>>>>>> refactoring
